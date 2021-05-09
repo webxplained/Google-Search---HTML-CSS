@@ -1,6 +1,6 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 body {
@@ -32,7 +32,7 @@ header ol li a {
 header ol li a:hover {
     text-decoration: underline;
 }
-header ol li.user {
+header ol li:last-child{
     display: block;
     width: 32px;
     height: 32px;
@@ -43,8 +43,8 @@ header ol li.user {
 main {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     position: absolute;
     top: 40%;
     left: 50%;
@@ -55,7 +55,6 @@ main {
     display: flex;
     align-items: center;
     border: 1px solid #dfe1e5;
-    box-shadow: none;
     border-radius: 24px;
     height: 44px;
     padding: 20px;
@@ -64,8 +63,7 @@ main {
     max-width: 600px;
 }
 .search-box:hover {
-    background-color: #fff;
-    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    box-shadow: 0 1px 6px rgba(32,33,36,0.28);
     border-color: rgba(223,225,229,0);
 }
 .search-box i {
@@ -92,31 +90,41 @@ main {
 .buttons button:hover {
     cursor: pointer;
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
-    border: 1px solid #dadce0;
-    color: #202124;
+    border: 1px solid#dadce0;
 }
-ol.search-footer {
-    margin-top: 20px;
+p {
+    font-size: 13px;
+    margin: 10px;
 }
-ol.search-footer li {
+p a {
+    text-decoration: none;
+    font-size: 14px;
+}
+p a:hover {
+    text-decoration: underline;
+}
+.search-footer {
+    margin: 20px;
+}
+.search-footer li {
     text-transform: capitalize;
     margin: 0 3px;
     font-size: 14px;
 }
-ol.search-footer li a{
+.search-footer li a {
     text-decoration: none;
     color: #1a0dab;
 }
-ol.search-footer li a:hover {
+.search-footer li a:hover {
     text-decoration: underline;
 }
 footer {
-    background-color: #f2f2f2;
-    text-transform: capitalize;
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
+    text-transform: capitalize;
+    background-color: #f2f2f2;
 }
 footer p {
     padding: 15px 30px;
@@ -129,18 +137,14 @@ footer .bottom {
     justify-content: space-between;
     padding: 15px 120px;
 }
-footer .bottom ol {
-    display: flex;
-    align-items: center;
-}
-footer .bottom ol li {
+footer .bottom li {
     padding: 0 15px;
 }
-footer .bottom ol li a {
-    color: #70757a;
-    text-decoration: none;
-    font-size: 14px;
+footer .bottom li a {
+ color: #70757a;
+ text-decoration: none;
+ font-size: 14px;
 }
-footer .bottom ol li a:hover {
+footer .bottom li a:hover {
     text-decoration: underline;
 }
