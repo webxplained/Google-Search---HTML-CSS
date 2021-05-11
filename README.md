@@ -10,6 +10,9 @@
 * 0.0.1
     * Work in progress
 
+## Screenshots
+![image](https://user-images.githubusercontent.com/83108798/117739768-a14df000-b21c-11eb-8ba0-06e672ac7644.png)
+
 ## Meta
 
 Web Xplained – [@youtube](https://www.youtube.com/channel/UC4sWzrFzcFKCoGYj6PaIsDg) - - -
